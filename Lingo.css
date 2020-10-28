@@ -17,14 +17,19 @@ body{
     background-color: lightskyblue;
 }
 
-textarea{
+.letterbox{
     font-family: tahoma;
     font-weight: bolder;
     font-size: xx-large;
     text-align: center;
+    color: white;
+    text-transform: uppercase;
     border-style: groove;
     border-color: orange;
     background-color: blue;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 3px;
 }
 
 #ruimte{
@@ -40,5 +45,4 @@ button{
     border-color: orange;
     background-color: blue;
     color: yellow;
-    margin: 5px;
 }
