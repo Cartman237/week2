@@ -8,6 +8,7 @@ header{
     border-style: groove;
     border-radius: 25px;
     border-color: orange;
+    border-width: 15px;
     margin: 5px;
 }
 
@@ -15,6 +16,10 @@ body{
     font-family: Tahoma;
     text-align: center;
     background-color: lightskyblue;
+}
+
+#ruimte{
+    margin: 25px;
 }
 
 .letterbox{
@@ -30,10 +35,6 @@ body{
     width: 55px;
     height: 55px;
     margin-bottom: 3px;
-}
-
-#ruimte{
-    margin: 25px;
 }
 
 button{
