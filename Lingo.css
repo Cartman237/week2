@@ -6,7 +6,7 @@ header{
     color: yellow;
     background-color: blue;
     border-style: groove;
-    border-radius: 25px;
+    border-radius: 55px;
     border-color: orange;
     border-width: 15px;
     height: 45px;
@@ -43,7 +43,7 @@ button{
     font-size: xx-large;
     text-align: center;
     border-style: groove;
-    border-radius: 25px;
+    border-radius: 55px;
     border-color: orange;
     border-width: 7.5px;
     background-color: blue;
