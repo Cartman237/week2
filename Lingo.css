@@ -44,6 +44,7 @@ button{
     border-style: groove;
     border-radius: 25px;
     border-color: orange;
+    border-width: 7.5px;
     background-color: blue;
     color: yellow;
 }
