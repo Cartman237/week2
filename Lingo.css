@@ -1,0 +1,44 @@
+header{
+    font-family: tahoma;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: orange;
+    margin: 5px;
+}
+
+body{
+    font-family: Tahoma;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+textarea{
+    font-family: tahoma;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    border-style: groove;
+    border-color: orange;
+    background-color: blue;
+}
+
+#ruimte{
+    margin: 25px;
+}
+
+button{
+    font-family: tahoma;
+    font-size: xx-large;
+    text-align: center;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: orange;
+    background-color: blue;
+    color: yellow;
+    margin: 5px;
+}
