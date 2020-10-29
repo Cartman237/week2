@@ -1,7 +1,7 @@
 function invoer(){
-    alert("Gecontroleerd");
+    alert("Gecontroleerd!");
 }
 
 function nieuw(){
-    alert("Vernieuwd");
+    alert("Vernieuwd!");
 }
