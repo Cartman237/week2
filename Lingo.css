@@ -30,6 +30,7 @@ body{
     color: white;
     text-transform: uppercase;
     border-style: groove;
+    border-radius: 5px;
     border-color: orange;
     background-color: blue;
     width: 55px;

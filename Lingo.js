@@ -9,11 +9,12 @@ var rij5 = ("5A","5B","5C","5D","5E");
 function invoer(){
     let woord = document.getElementById(rij1).value;
     console.log(woord);
+    console.log(rij1);
     if( woord.length == 5 ){
-        alert("Wel 5 letters!");
+        alert("CORRECT: Wel 5 letters!");
     }
     else{
-        alert("Niet 5 letters")
+        alert("INCORRECT: Niet 5 letters")
     }
 }
 
