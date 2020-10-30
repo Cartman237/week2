@@ -24,3 +24,7 @@ function invoer(){
         alert("Incorrect geraden!")
     }
 }
+
+function nieuw(){
+    location.reload();
+}
