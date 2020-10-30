@@ -38,6 +38,21 @@ body{
     margin-bottom: 5px;
 }
 
+#invoer{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: orange;
+    background-color: blue;
+/*    width: 55px;*/
+    height: 55px;
+    margin-bottom: 5px;
+}
+
 button{
     font-size: x-large;
     text-align: center;
