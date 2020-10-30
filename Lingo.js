@@ -26,6 +26,6 @@ function invoer(){
 }
 
 function nieuw(){
-    var vernieuw = document.getElementById("invoer").value = '';
+    let vernieuw = document.getElementById("invoer").value = '';
     location.reload();
 }
