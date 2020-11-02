@@ -49,14 +49,15 @@ function invoer(){
         alert("INCORRECT: Niet 5 letters")
     } */
     document.getElementById("invoer").value; // EERSTE RIJ ANTWOORD
-
     document.getElementById("1A").value = woord [0];
     document.getElementById("1B").value = woord [1];
     document.getElementById("1C").value = woord [2];
     document.getElementById("1D").value = woord [3];
     document.getElementById("1E").value = woord [4];
-    if( woord == resultaat ){
+    if( woord[3] == resultaat[3] ){
         alert("Correct geraden!");
+        console.log(woord[4]);
+        console.log(resultaat[4]);
     }
     else{
         alert("Incorrect geraden!")
