@@ -63,7 +63,7 @@ function invoer(){
     if( woord != resultaat){
         console.log("FOUT!");
         alert("FOUT!");
-        document.getElementById("r"+r+"v0").value = resultaat[0];
+//        document.getElementById("r"+r+"v"+v).value = resultaat[0];
     }
     else{
         console.log("GOED!");
