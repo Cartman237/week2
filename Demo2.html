@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Tahoma;
+            font-size: large;
+        }
+    </style>
+
+    <script>
+        function beginnen(){
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function (){
+                if(this.readyState == 4){
+//                    alert("callback");
+                    let feit = JSON.parse(this.responseText);
+                    document.getElementById("deDiv").innerHTML = feit.text;
+                }
+            };
+            xhr.open("GET","https://cat-fact.herokuapp.com/facts/random", true)
+           
+            xhr.send();
+        }
+        </script>
+    </head>
+
+    <body>
+        <input type="button" value="start" onclick=beginnen() >
+        <div id="deDiv"></div>
+    </body>
+</html>
